@@ -1,0 +1,16 @@
+
+
+#include<iostream>
+using namespace std;
+
+int main() {
+    int intValue = 50;
+
+    // C-style cast: (double)
+    double doubleValue = (double) intValue;
+
+    cout << "Integer value: " << intValue << endl;
+    cout << "Converted to double using C-style cast: " << doubleValue << endl;
+
+    return 0;
+}
